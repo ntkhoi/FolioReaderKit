@@ -487,20 +487,20 @@ func findHairlineImageViewUnderView(view: UIView?) -> UIImageView? {
 /// :nodoc:
 private extension UINavigationController {
     
-    open override var preferredStatusBarStyle : UIStatusBarStyle {
-        guard let viewController = visibleViewController else { return .default }
-        return viewController.preferredStatusBarStyle
-    }
-    
-    open override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
-        guard let viewController = visibleViewController else { return .portrait }
-        return viewController.supportedInterfaceOrientations
-    }
-    
-    open override var shouldAutorotate : Bool {
-        guard let viewController = visibleViewController else { return false }
-        return viewController.shouldAutorotate
-    }
+//    open override var preferredStatusBarStyle : UIStatusBarStyle {
+//        guard let viewController = visibleViewController else { return .default }
+//        return viewController.preferredStatusBarStyle
+//    }
+//    
+//    open override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+//        guard let viewController = visibleViewController else { return .portrait }
+//        return viewController.supportedInterfaceOrientations
+//    }
+//    
+//    open override var shouldAutorotate : Bool {
+//        guard let viewController = visibleViewController else { return false }
+//        return viewController.shouldAutorotate
+//    }
 }
 
 /**
